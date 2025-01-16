@@ -53,7 +53,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-关于王哲"
+  id="post-初始Linux"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -72,7 +72,7 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2024/11/23/%E5%85%B3%E4%BA%8E%E7%8E%8B%E5%93%B2/" class="article-date">
+      <a href="/2024/11/23/%E5%88%9D%E5%A7%8BLinux/" class="article-date">
   <time datetime="2024-11-23T05:38:51.000Z" itemprop="datePublished">2024-11-23</time>
 </a> 
   <div class="article-category">
@@ -84,7 +84,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">10</span>
+            <span class="post-count">1.6k</span>
         </span>
     </span>
 
@@ -93,7 +93,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">5 min</span>
         </span>
     </span>
 </div>
@@ -108,7 +108,30 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h2 id="初始linux"><a href="#初始linux" class="headerlink" title="初始linux"></a>初始linux</h2><h3 id="linux发展史"><a href="#linux发展史" class="headerlink" title="linux发展史"></a>linux发展史</h3><h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3> 
+  <h1 id="初始Linux"><a href="#初始Linux" class="headerlink" title="初始Linux"></a>初始Linux</h1><blockquote>
+<p>本篇文章字数较多，共1666词，本篇是Linux系列的第一篇，后序会持续更新，本篇文章主要介绍操作系统的概念，以及发展史和Linux，详细看完本篇文章，你一定会对Linux有着初步的了解</p>
+</blockquote>
+<h5 id="目录："><a href="#目录：" class="headerlink" title="目录："></a>目录：</h5><p>1.引入</p>
+<p>2.操作系统发展史</p>
+<p>3.Linux</p>
+<h2 id="1-引入"><a href="#1-引入" class="headerlink" title="1.引入"></a>1.引入</h2><p>在正式介绍引入我们的Linux操作系统之前，首先我们先来了解一下什么是操作系统，对操作系统有一个初步的认识</p>
+<p>那么作为计算机专业的学生，现在基本上都人手有属于自己的一台电脑，但是你是否了解自己电脑的内部的构造呢，那么我们计算机的构造我们可以按照层级的结构进行拆分，那么最底层是由我们的最基本的硬件也就是cpu以及磁盘以及内存条等等组成，接着往上走就是我们的驱动设备然后是我们的操作系统，最上层就是我们的软件以及我们的用户了。</p>
+<p>​      <img src="C:\Users\WFQ\Desktop\BHDHADBDJEHFH-L1otxyyuVC.png"></p>
+<p>那么我们可以从这个层状的计算机体系结构中发现我们的所谓的操作系统处于我们这个结构的中间，那么它具体的作用是什么呢？具体干什么呢？</p>
+<p>那么我们知道我们计算机工作的一个过程的一个本质其实就是一个有底层的硬件获取输入然后各个硬件协同工作处理计算得到输出的一个过程，那么我们知道我们的机器只能识别由0和1组成的二级制序列，那么意味着我们从上层的各种应用的请求要经过经过下层硬件的计算处理得到结果，那么我们首先得先将这些请求给翻译转换成我们机器能够识别的二进制语言，那么这个工作就需要我们的操作系统来完成，那么我们可以初步认识到我们操作系统在我们计算机所扮演的角色是一个类似于中间人的角色，由他接收上层的请求然后调动下层的硬件工作，随着之后的学习，我们对操作系统的各种具体功能的认识会更加深刻，这里我们初识了操作系统这个概念</p>
+<h2 id="2-操作系统的发展史"><a href="#2-操作系统的发展史" class="headerlink" title="2.操作系统的发展史"></a>2.操作系统的发展史</h2><p>那么我们有了操作系统这个概念之后，那么我们一定好奇操作系统是怎么发展怎么诞生的，那么接下来会介绍操作系统的发展史，帮组我们更好的进入的操作系统的学习以及对操作系统的认识更加完善。</p>
+<p>那么我们要说操作系统得先从计算机的诞生说起，那么计算机的诞生是早于操作系统的，那么世界上第一台计算机阿尼亚克诞生于二战时期，那么它的体积十分庞大，外部接口十分复杂，那么操作门槛很高，在这样的背景下诞生，那么这个时候的计算机只要应用于军事领域，那么计算机的工作流程无非就是接收输入计算得到输出，那么在当时为了给计算机提供输入，则需要人们通过纸袋打孔得到二进制序列给计算机计算，结果也是打到纸袋上。</p>
+<p><img src="C:\Users\WFQ\Desktop\BHDHADAIGFGDB-KHHi0iBMcX.png"></p>
+<p>那么在这个模式下，我们的时间主要浪费在纸袋的处理输入以及输出上，其实计算的时间是很短暂的，那么对于一台造价昂贵的计算机的利用效率是很低的—-</p>
+<p>后来人们再次模式下改善，利用磁带，将一堆输入先交给磁带，然后计算机直接读入磁带内容然后输出，但是在这个模式下我们发现计算机的计算还是会有空闲状态，因为它在计算完会等待下一次的输入，那么为了更大提高利用率，操作系统便由此诞生了—</p>
+<p>那么我们在在计算机的基础上添加了操作系统，那么我们可以设计为计算机专门在某个时间片上专门处理一些输入得到结果，然后再分配另一个时间段给另一个输入，那么至此操作系统的雏形便由此显现</p>
+<h2 id="3-Linux"><a href="#3-Linux" class="headerlink" title="3.Linux"></a>3.Linux</h2><p>那么在目前市面上有很多的操作系统，其中有微软开发的Windows操作系统以及苹果开发的MAC OS系统还有安卓等等，但这些都不是我们这篇文章的重点，而与我们这些未来的程序猿最为重要的则是我们的Linux操作系统–</p>
+<p><img src="C:\Users\WFQ\Desktop\BHDHADBFBJGEG-Ww3TpMXURo.png"></p>
+<p>那么为什么Linux操作系统对我们来说很重要呢，那么Linux操作系统有几个非常重要的特征：开源，稳定，安全，免费。</p>
+<p>那么由于开源那么意味着Linux的源码是透明开放的，那么会有很多的程序猿会完善以及修改其中的bug，并且Linux是一款免费的系统，那么我们很多互联网后端公司也倾向使用它，并且其还有良好的讨论社区以及官方文档的支持，这各种现象都表明了Linux的生态环境十分良好，使我们未来程序猿的不二选择。</p>
+<p>那么我们使用Linux，这里我推荐使用一些互联网公司比如百度，腾讯，阿里等提供的云服务器上面搭载的Linux系统来帮组我们学习以及应用，那么我们在相应的官网上购买以及下载，具体过程，本篇文章不在详细阐释</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>那么本篇文章只要围绕着三个方面介绍引入了我们的操作系统，分别是其概念以及发展史和特征，那么希望本篇文章能够帮到你了解操作系统以及进入曹总系统的大门，感谢观看</p>
+ 
       <!-- reward -->
       
       <div id="reword-out">
@@ -178,7 +201,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cdc028wangzhe.github.io/2024/11/23/%E5%85%B3%E4%BA%8E%E7%8E%8B%E5%93%B2/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cdc028wangzhe.github.io/2024/11/23/%E5%88%9D%E5%A7%8BLinux/" alt="微信分享二维码">
     </div>
 </div>
 
